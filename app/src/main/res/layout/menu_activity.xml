@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_secondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvMenuTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/menu_title"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="16dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/bStartQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/begin_demo"
+        app:layout_constraintBottom_toTopOf="@+id/bEnterQuiz2"
+        app:layout_constraintEnd_toEndOf="@id/constraintLayout"
+        app:layout_constraintStart_toStartOf="@id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/tvQ1"
+        tools:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/tvMenuAN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/demo_desc"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+    <TextView
+        android:id="@+id/tvQ2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_vertical"
+        android:text="@string/desc_slide1"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvMenuAN"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <TextView
+        android:id="@+id/tvQ3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_vertical"
+        android:text="@string/desc_slide2"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvQ2"
+        tools:layout_editor_absoluteX="162dp" />
+
+    <TextView
+        android:id="@+id/tvQ1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/desc_slide3"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvQ3"
+        tools:layout_editor_absoluteX="130dp" />
+
+    <Button
+        android:id="@+id/bMenuExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="70dp"
+        android:text="@string/exit"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bEnterQuiz2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Enter_quiz2"
+        app:layout_constraintBottom_toTopOf="@+id/bMenuExit"
+        app:layout_constraintEnd_toEndOf="@+id/bStartQuiz"
+        app:layout_constraintStart_toStartOf="@+id/bStartQuiz"
+        app:layout_constraintTop_toBottomOf="@+id/bStartQuiz"
+        tools:textSize="26sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

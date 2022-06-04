@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Project Quiz</string>
+    <string name="desc_slide3">По окончанию викторины
+        вы сможете увидеть свой
+        результат и получить
+        оценку ваших знаний.</string>
+    <string name="desc_slide2">Время, отведённое на
+        решение викторины, неограничено.</string>
+    <string name="desc_slide1">Всего вопросов в викторинах: 4.</string>
+    <string name="correct_answers">Правильных ответов.</string>
+    <string name="try_again">Попробовать снова</string>
+    <string name="Enter_quiz2">Войти в викторину №2</string>
+
+    <string name="quest1">Вопрос №1</string>
+    <string name="quest2">Вопрос №2</string>
+    <string name="quest3">Вопрос №3</string>
+    <string name="quest1desc">Чему будет равно следующее
+        выражение в двоичной системе счисления?</string>
+    <string name="quest1.2desc">1001+11011</string>
+    <string name="quest_hint">Ответ</string>
+    <string name="answer_text">Ответить!</string>
+    <string name="quest2desc">Вопрос №2</string>
+    <string name="quest3desc">Вопрос №3</string>
+    <string name="prompt_nick">Имя пользователя</string>
+    <string name="quiz_result">Результаты</string>
+    <string name="menu_title">Главное Меню</string>
+    <string name="begin_demo">Войти в викторину №1</string>
+    <string name="exit">Выход</string>
+    <string name="demo_desc">Демо-уровень</string>
+    <string name="about">О нас</string>
+    <string name="prompt_email">Электронная почта</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="not_registered">Нету аккаунта?</string>
+    <string name="register">Зарегестрироваться</string>
+    <string name="registry">Регистрация</string>
+    <string name="welcome">Добро пожаловать!</string>
+</resources>
